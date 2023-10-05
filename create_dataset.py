@@ -15,7 +15,9 @@ DATA_DIR = './data'
 data = []
 labels = []
 for dir_ in os.listdir(DATA_DIR):
+
   print('...processing', os.path.join(DATA_DIR, dir_), '...')
+  
   for img_path in os.listdir(os.path.join(DATA_DIR, dir_)):
     data_aux = []
     img = cv2.imread(os.path.join(DATA_DIR, dir_, img_path))
