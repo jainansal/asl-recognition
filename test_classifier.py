@@ -15,7 +15,7 @@ hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
 cap = cv2.VideoCapture(0)
 
-labels_dict = {0: 'A', 1: 'B', 2: 'L'}
+labels_dict = {0: 'A', 1: 'B', 2: 'C', 3: 'D'}
 while True:
 
     data_aux = []
